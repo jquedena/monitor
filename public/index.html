@@ -1,0 +1,23 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="chart.css" />
+</head>
+<body>
+	<div class="container">
+		<h2>Monitor de servidores</h2>
+	</div>
+	<div class="container">
+		<input id="txt-uri" type="text" value="http://127.0.0.1:8080/pyme_frontend_web/info" />&nbsp;
+		<button onclick="agregar($('#txt-uri').val());">Agregar</button>&nbsp;
+		<button id="btnIniciar" onclick="iniciar()" disabled>Iniciar</button>&nbsp;
+		<button id="btnDetener" onclick="detener()" disabled>Detener</button>
+	</div>
+    <div id="chart-container-01"class="container">
+	</div>
+	<div id="message"></div>
+    <script type="text/javascript" src="../node_modules/chart.js/dist/Chart.js"></script>
+	<script type="text/javascript" src="../node_modules/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="chart-functions.js"></script>
+	<script type="text/javascript" src="chart.js"></script>
+</body>
+</html>

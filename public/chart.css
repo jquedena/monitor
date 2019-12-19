@@ -1,0 +1,28 @@
+* {
+    font-family: Tahoma;
+    font-size: 11px;
+}
+#txt-uri {
+    width: 450px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.container h2 {
+    margin: 0px;
+}
+.chart-container {
+    width: 590px;
+    height: 270px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    border: 1px solid rgba(145, 138, 138, 0.5);
+}
